@@ -1,0 +1,8 @@
+//first run this for jdbc inside the BillingSystem
+
+//Then the second one
+
+javac -cp ".;libs/*" BillingSystem/db/DBConnection.java BillingSystem/model/Customer.java BillingSystem/model/Product.java BillingSystem/ui/CustomerForm.java BillingSystem/ui/ProductForm.java BillingSystem/ui/BillingFrame.java Main.java
+
+
+java -cp ".;libs/*" Main
